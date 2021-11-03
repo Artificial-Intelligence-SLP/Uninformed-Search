@@ -9,4 +9,5 @@ Link for hand-drawn notes on DFS (best resolution): https://docs.google.com/draw
 
 SOURCE OF DATASET:
 J. McAuley and J. Leskovec. _Learning to Discover Social Circles in Ego Networks_. NIPS, 2012.
+
 Link: https://snap.stanford.edu/data/ego-Facebook.html
