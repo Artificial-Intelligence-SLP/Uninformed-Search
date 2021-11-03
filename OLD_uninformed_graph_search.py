@@ -5,7 +5,7 @@ def deduce_path(predecessors, last_node_visited):
     path = []
     # Using predecessors dict, populated during the search, step backward from goal to deduce final path
     node = last_node_visited
-    while node:  # This line functions the same as 'while node != None:'
+    while isinstance(node, int):
         path.append(node)
         node = predecessors[node]
     path.reverse()  # Path = [Goal ... Initial], so reverse to [Initial ... Goal]
