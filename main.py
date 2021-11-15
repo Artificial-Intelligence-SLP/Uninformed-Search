@@ -4,8 +4,8 @@ from uninformed_graph_search import UninformedGraphSearch
 if __name__ == '__main__':
     '''Conduct AI Search (Pathfinding) on a social network graph'''
     # Initialize a graph network
-    goal = 150
-    pathfinder = UninformedGraphSearch(goal=goal, source='facebook')
+    goal = 3684
+    pathfinder = UninformedGraphSearch(goal=goal, source='enron')
 
     # Find path from initial to goal states using uninformed search algorithms
     initial = 1
